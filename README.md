@@ -1,4 +1,4 @@
-# dwmblocks-x1nigo
+# x1nigo's build of dwmblocks
 My build of dwmblocks - status bar for dwm.
 
 ## Patches
