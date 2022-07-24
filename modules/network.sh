@@ -6,7 +6,7 @@ else
 	wlicon="❌"
 fi
 
-[ $(grep -x up /sys/class/net/e*/operstate) >/dev/null 2>&1 ] && ethicon="🌐" || ethicon="❌"
+[ $(grep -x up /sys/class/net/e*/operstate) >/dev/null 2>&1 ] && ethicon="🌎" || ethicon="❌"
 
 case $BUTTON in
 	1) notify-send -t 5000 "$wlicon $(nmcli -t -f name connection show --active) $perc" ;;
