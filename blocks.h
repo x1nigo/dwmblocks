@@ -21,8 +21,6 @@ static const Block blocks[] = {
 	
 	{"", "sh ~/.config/dwmblocks/modules/network.sh",                       10,     22},
 
-	{"", "sh ~/.config/dwmblocks/modules/cbmp.sh",                          20,     19},
-
 	{"", "sh ~/.config/dwmblocks/modules/lock.sh",                          25,      4},
 };
 
