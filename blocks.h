@@ -5,13 +5,13 @@ static const Block blocks[] = {
 
         {"", "db-mic",                           10,      1},
 
-        {"", "db-temperature",                    5,     16},
+/*        {"", "db-temperature",                    5,     16}, */
 
         {"", "db-brightness",                    20,     12},
 
-        {"", "db-memory",                         5,      7},
+/*        {"", "db-memory",                         5,      7}, */
 
-        {"", "db-cpu",                            5,      8},
+/*        {"", "db-cpu",                            5,      8}, */
 
         {"", "db-nettraffic",                     1,     17},
 
@@ -25,5 +25,5 @@ static const Block blocks[] = {
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
-static char delim[] = "  |  ";
+static char delim[] = "   ";
 static unsigned int delimLen = 5;
