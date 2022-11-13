@@ -5,13 +5,13 @@ static const Block blocks[] = {
 
         {"", "db-mic",                           10,      1},
 
-        {"", "db-temperature",                    5,     16},
+/*        {"", "db-temperature",                    5,     16}, */
 
         {"", "db-brightness",                    20,     12},
 
-        {"", "db-memory",                         5,      7},
+/*        {"", "db-memory",                         5,      7}, */
 
-        {"", "db-cpu",                            5,      8},
+/*        {"", "db-cpu",                            5,      8}, */
 
         {"", "db-nettraffic",                     1,     17},
 
