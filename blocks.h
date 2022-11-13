@@ -20,8 +20,6 @@ static const Block blocks[] = {
         {"", "db-date",                           5,      9},
 
         {"", "db-network",                       10,     22},
-
-        {"", "db-lock",                          25,      4},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
