@@ -5,6 +5,8 @@ static const Block blocks[] = {
 
         {"", "db-mic",                           10,      1},
 
+        {"", "db-torrent",                        5,     18},
+
         {"", "db-temperature",                    5,     16},
 
         {"", "db-brightness",                    20,     12},
@@ -20,6 +22,8 @@ static const Block blocks[] = {
         {"", "db-date",                           5,      9},
 
         {"", "db-network",                       10,     22},
+
+        {"", "db-system",                        80,     28},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
