@@ -7,6 +7,8 @@ static const Block blocks[] = {
 
         {"", "db-torrent",                        5,     18},
 
+        {"", "db-mail",                           5,     20},
+
         {"", "db-temperature",                    5,     16},
 
         {"", "db-brightness",                    20,     12},
