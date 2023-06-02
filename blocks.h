@@ -10,7 +10,7 @@ static const Block blocks[] = {
         {"", "db-nettraffic",                     1,     17},
         {"", "db-volume",                         0,     10},
         {"", "db-mic",                            0,      1},
-        {"", "db-battery",                       10,      6},
+        {"", "db-battery",                        5,      6},
         {"", "db-date",                           5,      9},
         {"", "db-network",                       10,     22},
         {"", "db-system",                         0,     28},
