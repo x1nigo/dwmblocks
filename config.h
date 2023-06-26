@@ -13,7 +13,6 @@ static const Block blocks[] = {
         {"", "db-battery",                       10,      3},
         {"", "db-date",                           5,      9},
         {"", "db-network",                       10,     22},
-        {"", "db-system",                         0,     28},
         {"", "db-readme",                         0,     14},
 };
 
