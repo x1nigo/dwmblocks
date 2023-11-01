@@ -10,10 +10,10 @@ static const Block blocks[] = {
         {"", "db-mic",                            5,     11},
         {"", "db-battery",                       10,      3},
         {"", "db-date",                           5,      9},
-        {"", "db-network",                        8,     16},
+        {"", "db-internet",                       8,     16},
         {"", "db-readme",                         0,     18},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
-static char delim[] = "   ";
+static char delim[] = "  ";
 static unsigned int delimLen = 5;
