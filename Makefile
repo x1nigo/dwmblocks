@@ -16,11 +16,8 @@ options:
 	@echo "LDFLAGS = ${LDFLAGS}"
 	@echo "CC      = ${CC}"
 
-dwmblocks: dwmblocks.c config.def.h config.h
+dwmblocks: dwmblocks.c config.h
 	${CC} -o dwmblocks dwmblocks.c ${CFLAGS} ${LDFLAGS}
-
-config.h:
-	cp config.def.h $@
 
 clean:
 	rm -f *.o *.gch dwmblocks
