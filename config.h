@@ -3,8 +3,8 @@ static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	{"",        "sl-blight",	80,		            12},
 	{"",        "sl-traffic",	 1,		             8},
-	{"",        "sl-memory",	 8,		            16},
-	{"",        "sl-cpu",		 8,		            22},
+	{"",        "sl-memory",	30,		            16},
+	{"",        "sl-cpu",		15,		            22},
 	{"",        "sl-volume",	 0,		            10},
 	{"",        "sl-battery",	 5,		             7},
 	{"",        "sl-internet",	10,		             5},
