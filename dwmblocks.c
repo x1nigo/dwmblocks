@@ -31,10 +31,9 @@ void sighandler(int num);
 void getcmds(int time);
 void getsigcmds(unsigned int signal);
 void setupsignals();
+void sighandler(int signum);
 int getstatus(char *str, char *last);
-void sighandler(int sighum);
 void statusloop();
-void termhandler(int signum);
 void pstdout();
 #ifndef NO_X
 void setroot();
@@ -48,7 +47,7 @@ static void (*writestatus) () = pstdout;
 #endif
 
 
-#include "config.h"
+#include "blocks.h"
 
 static char statusbar[LENGTH(blocks)][CMDLENGTH] = {0};
 static char statusstr[2][STATUSLENGTH];
@@ -184,11 +183,6 @@ void sighandler(int signum)
 	writestatus();
 }
 
-void termhandler(int signum)
-{
-	statusContinue = 0;
-}
-
 int main(int argc, char** argv)
 {
 	for (int i = 0; i < argc; i++) {//Handle command line arguments
@@ -203,8 +197,6 @@ int main(int argc, char** argv)
 #endif
 	delimLen = MIN(delimLen, strlen(delim));
 	delim[delimLen++] = '\0';
-	signal(SIGTERM, termhandler);
-	signal(SIGINT, termhandler);
 	statusloop();
 #ifndef NO_X
 	XCloseDisplay(dpy);
