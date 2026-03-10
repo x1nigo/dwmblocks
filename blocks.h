@@ -2,6 +2,7 @@
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	{"", "sl-recording",        0,                  4},
+	{"", "sl-torrent",         16,                  9},
 	{"", "sl-blight",          12,                 12},
 	{"", "sl-bitcoin",       1800,                 21},
 	{"", "sl-mount",           16,                  6},
@@ -9,7 +10,7 @@ static const Block blocks[] = {
 	{"", "sl-memory",          30,                 28},
 	{"", "sl-traffic",          1,                 23},
 	{"", "sl-volume",           0,                 10},
-	{"", "sl-microphone",       0,                 10},
+	{"", "sl-microphone",       0,                 11},
 	{"", "sl-disk",           360,                 14},
 	{"", "sl-battery",          5,                  8},
 	{"", "sl-date",             5,                 27},
